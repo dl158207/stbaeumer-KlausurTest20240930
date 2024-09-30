@@ -9,12 +9,24 @@ console.log("Aufgabe 1")
 // Es soll das Volumen eines Würfels in Quadratzentimeter (cm3) ausgegeben werden. Arbeiten Sie mit einem Objekt und sprechenden Eigenschaften.
 // Geben Sie das Volumen in einem Antwortsatz auf der Konsole aus.
 
+const Würfel ={
+    length = 5,
+
+    breite = 5
+    höhe = 5
+    volumen: function(){
+        return this.length * this.breite * this.höhe,
+
+     }
+    
+}
 
 
 
 // 1b 
 // Wenn das Volumen 1000 oder mehr Quadratzentimeter beträgt soll eine Meldung auf der Konsole ausgegeben werden, die besagt,
 // dass das Volumen 1000 oder mehr Quadratzentimeter beträgt.
+
 
 
 
@@ -32,6 +44,7 @@ console.log("Aufgabe 2")
 
 // 2a)
 // Definieren Sie die class
+
 
 
 
@@ -84,7 +97,16 @@ console.log("Aufgabe 3")
 // Dieses Produkt hat die Produktart "Zeitung"
 
 // 3a)
-// Deklarieren, Instanziieren Sie ein Objekt mit allen genannten Eigenschaften. 
+// Deklarieren, Instanziieren Sie ein Objekt mit allen genannten Eigenschaften.
+
+const Produkt = {
+    listenpreis: 500, 
+    rabattprozentsatz: 10,
+    mwstProzentsatz:19
+    skontoprozent:3
+    produktart:"Zeitung"
+
+}
 
 
 
